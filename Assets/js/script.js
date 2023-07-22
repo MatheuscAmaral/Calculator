@@ -13,3 +13,12 @@ function calcula () {
     result = eval(valor);
     document.calc.visor.value = result;
 }   
+
+function plusorMinus() {
+    if (!isNaN(parseFloat(valor))) {
+        var numberValue = parseFloat(valor);
+        numberValue = -numberValue;
+
+        valor = document.calc.visor.value = numberValue;
+    }
+}

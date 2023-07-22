@@ -84,10 +84,6 @@ input {
     padding: 21px;
 }
 
-#fiftyRow input:first-child {
-    width: 115px;
-}
-
 #result {
     color: white;
 }
@@ -170,10 +166,6 @@ input {
     padding: 30px;
 }
 
-#fiftyRow input:first-child {
-    width: 150px;
-}
-
 #result {
     color: white;
 }
@@ -252,10 +244,6 @@ input {
     
     #fiftyRow input {
         padding: 9px;
-    }
-    
-    #fiftyRow input:first-child {
-        width: 68px;
     }
     
     #result {
