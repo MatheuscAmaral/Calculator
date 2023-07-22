@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Popins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1B1F27;
+    width: 100%;
+}
+
+#calculator {
+    background-color: #181920;
+    margin: auto;
+    width: 390px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#visor  {
+    padding-left: 20px;
+    width: 320px;
+    height: 50px;
+    background-color: #181920;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+
+hr {
+    width: 300px;
+}
+
+input {
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#buttons strong {
+    margin: auto;
+    font-size: 14px;
+}
+
+#buttons a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+#buttons input {
+    background-color: #343434;
+    border: none;
+}
+
+#firstRow input {
+    padding: 29.5px;
+}
+
+
+#secondRow input {
+    padding: 30px;
+}
+
+#thirdRow input {
+    padding: 30px;
+}
+
+#forthRow input {
+    padding: 30px;
+}
+
+#fiftyRow input {
+    padding: 30px;
+}
+
+#fiftyRow input:first-child {
+    width: 150px;
+}
+
+#result {
+    color: white;
+}

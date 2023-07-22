@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="shortcut icon" href="/Assets/images/logo cal.png" type="image/x-icon">
+    <title>Calculator</title>
+</head>
+<body>
+    <form name="calc">
+        <div id="calculator">
+            <input type="text" id="visor" name="visor">
+            <hr>
+            <div id="buttons">
+                <div id="firstRow">
+                    <input type="button" value="C" style="background-color: #FF5959; color: #343434;" onclick="reseta()">
+                    <input type="button" value="()" style="color: #66FF7F;" onclick="botao(value)">
+                    <input type="button" value="%" style="color: #66FF7F;" onclick="botao(value)">
+                    <input type="button" value="/" style="color: #66FF7F;" onclick="botao(value)">
+                </div>
+                <div id="secondRow">
+                    <input type="button" value="7" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="8" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="9" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="*" style="color: #66FF7F;" onclick="botao(value)">
+                </div>
+                <div id="thirdRow">
+                    <input type="button" value="4" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="5" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="6" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="-" style="color: #66FF7F;" onclick="botao(value)">
+                </div>
+                <div id="forthRow">
+                    <input type="button" value="1" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="2" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="3" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="+" style="color: #66FF7F;" onclick="botao(value)">
+                </div>
+                <div id="fiftyRow">
+                    <input type="button" value="0" style="color: white;" onclick="botao(value)">
+                    <input type="button" value="." style="color: white;" onclick="botao(value)">
+                    <input type="button" value="=" style="background-color: #66FF7F; color: #343434;" onclick="calcula()">
+                </div>
+                <strong>
+                    <a href="https://www.instagram.com/uomatheus/" target="_blank">
+                        <p>
+                            @uomatheus
+                        </p>
+                    </a>
+                </strong>
+            </div>
+        </div>
+    </form>
+<script src="/Assets/js/script.js"></script>
+</body>
+</html>
