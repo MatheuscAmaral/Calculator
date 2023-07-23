@@ -12,7 +12,8 @@ function reseta () {
 function calcula () {
     result = eval(valor);
     document.calc.visor.value = result;
-}   
+}
+   
 
 function plusorMinus() {
     if (!isNaN(parseFloat(valor))) {
